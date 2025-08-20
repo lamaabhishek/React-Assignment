@@ -1,0 +1,19 @@
+import Heading from "./Components/Heading.jsx";
+import About from "./Components/About.jsx";
+
+
+export default function App() {
+  return (
+    <div>
+      <Heading />
+      <About
+        title="About React"
+        content="React is a library for building user interfaces using components."
+      />
+      <About
+        title="Why Learn React"
+        content="It’s fast, component-based, and used widely in modern web apps."
+      />
+    </div>
+  );
+}
